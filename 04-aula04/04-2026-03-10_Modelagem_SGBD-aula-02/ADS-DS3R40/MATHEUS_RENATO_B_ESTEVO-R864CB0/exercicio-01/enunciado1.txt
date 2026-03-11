@@ -1,1 +1,24 @@
-#exercicio1
+EXERCÍCIO 1 — MODELAGEM UNIVERSIDADE
+
+1. DESCRIÇÃO DO CENÁRIO:
+Considere uma Universidade que possui vários Cursos. Cada curso tem um nome, uma duração em semestres e um coordenador. A universidade possui Professores, cada um com um nome, título e CPF. Um professor pode ministrar várias disciplinas, e cada disciplina pertence a um único curso.
+
+2. TAREFAS A REALIZAR:
+a. Identificar as entidades (Substantivos).
+b. Identificar os atributos de cada Entidade (Adjetivos/Propriedades).
+c. Identificar os relacionamentos entre as Entidades (Verbos).
+d. Definir as Chaves Primárias (PK) e Estrangeiras (FK).
+e. Elaborar o Diagrama Entidade-Relacionamento (DER).
+f. Gerar o script SQL de criação do banco de dados.
+
+3. REGRAS DE NEGÓCIO IDENTIFICADAS:
+- Uma UNIVERSIDADE possui N CURSOS.
+- Uma UNIVERSIDADE possui N PROFESSORES.
+- Um PROFESSOR ministra N DISCIPLINAS.
+- Uma DISCIPLINA pertence a 1 CURSO.
+
+4. MAPEAMENTO DE ATRIBUTOS:
+- UNIVERSIDADES: [nome, cnpj]
+- CURSOS: [nome, duracao, coordenador, codigo_curso]
+- PROFESSORES: [cpf, nome, titulo]
+- DISCIPLINAS: [nome, codigo_disciplina]
