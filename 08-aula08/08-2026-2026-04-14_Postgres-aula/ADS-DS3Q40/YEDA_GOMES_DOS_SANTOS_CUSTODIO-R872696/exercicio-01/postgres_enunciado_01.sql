@@ -1,0 +1,1 @@
+Cenário: Uma empresa de logística quer vender frete barato para novos negócios em São Paulo. Utilizando SQL DML (Data Manipulation Language) e as operações de Algebra Relacional, gere um RELATÓRIO contendo as seguintes informações: Selecione todas as empresas onde o estado seja ‘SP’ e a data_atividade seja posterior a ‘2024-01-01’.
